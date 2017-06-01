@@ -22,7 +22,7 @@ before_install:
    - sudo apt-get install -qq python-numpy python-scipy python-matplotlib python-mpltoolkits.basemap
 
 install:
-   - sudo pip install netcdf
+   - sudo pip install netCDF4
    - pip install .
 
 script:
